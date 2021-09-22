@@ -3,12 +3,19 @@ import {} from 'react-native';
 
 const Header = props => {
     return(
-        <View>
-            <Text>{}</Text>
+        <View style={styles.header}>
+            <Text style={styles.headerTitle}>{props.title}</Text>
         </View>
     )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    header: {
+        width: '100%'
+    },
+    headerTitle: {
+        
+    }
+})
 
 export default Header;
