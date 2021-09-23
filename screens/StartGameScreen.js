@@ -1,5 +1,12 @@
 import React from "react";
-import {Text, View, StyleSheet} from 'react-native';
+View,
+Text,
+StyleSheet,
+Button,
+TouchableWithoutFeedback,
+Keyboard,
+Alert
+} from 'react-native';
 
 const StartGameScreen = props => {
     return (
