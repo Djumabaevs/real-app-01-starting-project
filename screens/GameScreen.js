@@ -44,7 +44,13 @@ const generateRandomBetween = (min, max, exclude) => {
   const { userChoice, onGameOver } = props;
 
 
+  useEffect(() => {
+    if (currentGuess === userChoice) {
+      onGameOver(pastGuesses.length);
+    }
+  }, [currentGuess, userChoice, onGameOver]);
 
+  
 
   }
 
