@@ -26,6 +26,7 @@ export default function App() {
         startAsync={fetchFonts}
         onFinish={() => setDataLoaded(true)}
         onError={err => console.log(err)}
+        
       />
     );
   }
